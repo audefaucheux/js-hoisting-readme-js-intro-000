@@ -4,7 +4,7 @@
   "description": "JavaScript hoisting code-along for Learn.co",
   "main": "hoisting.js",
   "directories": {
-    "test": "test"
+    "test": "test/hoisting-test.js"
   },
   "scripts": {
     "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
