@@ -4,10 +4,10 @@
   "description": "JavaScript hoisting code-along for Learn.co",
   "main": "hoisting.js",
   "directories": {
-    "test": "test/hoisting-test.js"
+    "test": "test"
   },
   "scripts": {
-    "test": "test/hoisting-test.js"
+    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
   },
   "repository": {
     "type": "git",
