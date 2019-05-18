@@ -7,7 +7,7 @@
     "test": "test/hoisting-test.js"
   },
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    "test": "test/hoisting-test.js"
   },
   "repository": {
     "type": "git",
